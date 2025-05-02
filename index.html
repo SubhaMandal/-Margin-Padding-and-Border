@@ -4,41 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Box Model</title>
-  <style>
-    /* Write your CSS code here */
-
-    div{
-      height: 200px;
-      width: 200px;
-
-    }
-
-    p{
-      margin: 0;
-    }
-    #one{
-      background-color: cadetblue;
-      padding: 20px;
-      border: 10px solid black;
-    }
-    
-    #two{
-      background-color: gold;
-      border: solid black;
-      border-width: 20px 10px;
-      margin-left: 258px;
-    }
-
-    #three{
-      background-color: indianred ;
-      border: solid black 10px;
-      margin-left: 40px;
-    }
-
-
-
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -58,18 +24,16 @@
 
 </div>
 
-<!-- I learned  how to calculate, for example
- The 2nd div is touching the 1st div's right bottom corner, simply calculate,
- 1 main box (Div) 200px, padding: left right 20+20px
+<!-- I myself learned  how to calculate for example
+ the div two is touching div one right corner, simple calculate,
+ dive 1 main box (Div) 200px, padding: left right 20+20px
  and last border left right 10+10  px so total is 200+40+20= 260
- so for 2nd div to touch 1st div's right bottom corner  just add margine left 260n px walalalal hahaha yup-->
+ so for 2nd div to touch 1st div's corner just add margine left 260n px walalalal hahaha yup-->
 
 
-
-  
   <!-- TODOs:
 1. Create 3 Boxes using the div element.
-2. Set their sizes to 200px heigh by 200px wide.
+2. Set their sizes to 200px hight by 200px wide.
 3. Set different background colors for each of the boxes (I used cadetblue, gold and indianred).
 4. Add a paragraph <p> element into the first div and add the following words:
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
